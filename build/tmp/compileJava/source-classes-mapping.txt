@@ -1,0 +1,4 @@
+com/kodilla/good/patterns/challenges/MovieStore.java
+ com.kodilla.good.patterns.challenges.MovieStore
+com/kodilla/good/patterns/challenges/MainApp.java
+ com.kodilla.good.patterns.challenges.MainApp
