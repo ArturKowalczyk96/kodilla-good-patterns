@@ -1,18 +1,42 @@
+com/kodilla/good/patterns/food2door/ProductOrderService.java
+ com.kodilla.good.patterns.food2door.ProductOrderService
+com/kodilla/good/patterns/food2door/OrderRequestRetrieve.java
+ com.kodilla.good.patterns.food2door.OrderRequestRetrieve
+com/kodilla/good/patterns/food2door/OrderRequest.java
+ com.kodilla.good.patterns.food2door.OrderRequest
+com/kodilla/good/patterns/challenges/ProductOrderService.java
+ com.kodilla.good.patterns.challenges.ProductOrderService
+com/kodilla/good/patterns/challenges/OrderRequest.java
+ com.kodilla.good.patterns.challenges.OrderRequest
+com/kodilla/good/patterns/challenges/OrderRequestRetrieve.java
+ com.kodilla.good.patterns.challenges.OrderRequestRetrieve
+com/kodilla/good/patterns/food2door/InformationServices.java
+ com.kodilla.good.patterns.food2door.InformationServices
+com/kodilla/good/patterns/food2door/OrderRepository.java
+ com.kodilla.good.patterns.food2door.OrderRepository
 com/kodilla/good/patterns/challenges/OrderProcessor.java
  com.kodilla.good.patterns.challenges.OrderProcessor
 com/kodilla/good/patterns/challenges/OrderRepository.java
  com.kodilla.good.patterns.challenges.OrderRepository
 com/kodilla/good/patterns/challenges/Product.java
  com.kodilla.good.patterns.challenges.Product
+com/kodilla/good/patterns/food2door/Application.java
+ com.kodilla.good.patterns.food2door.Application
+com/kodilla/good/patterns/food2door/OrderDto.java
+ com.kodilla.good.patterns.food2door.OrderDto
 com/kodilla/good/patterns/challenges/User.java
  com.kodilla.good.patterns.challenges.User
 com/kodilla/good/patterns/challenges/MainApp.java
  com.kodilla.good.patterns.challenges.MainApp
+com/kodilla/good/patterns/food2door/OrderProcessor.java
+ com.kodilla.good.patterns.food2door.OrderProcessor
 com/kodilla/good/patterns/challenges/OrderDto.java
  com.kodilla.good.patterns.challenges.OrderDto
-com/kodilla/good/patterns/challenges/ProductOrderService.java
- com.kodilla.good.patterns.challenges.ProductOrderService
-com/kodilla/good/patterns/challenges/OrderRequest.java
- com.kodilla.good.patterns.challenges.OrderRequest
+com/kodilla/good/patterns/food2door/Shopper.java
+ com.kodilla.good.patterns.food2door.Shopper
+com/kodilla/good/patterns/food2door/Product.java
+ com.kodilla.good.patterns.food2door.Product
 com/kodilla/good/patterns/challenges/InformationService.java
  com.kodilla.good.patterns.challenges.InformationService
+com/kodilla/good/patterns/challenges/MovieStore.java
+ com.kodilla.good.patterns.challenges.MovieStore

@@ -1,7 +1,6 @@
 package com.kodilla.good.patterns.challenges;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 public class OrderRequestRetrieve {
 
@@ -11,8 +10,8 @@ public class OrderRequestRetrieve {
 
         Product product = new Product("Book", 19.50);
 
-        LocalDate orderDate = new LocalDate(2020, 12, 10);
+        //LocalDate orderDate = new LocalDate.of(2020, 12, 10);
 
-        return new OrderRequest(user, product, orderDate);
+        return new OrderRequest(user, product);
     }
 }

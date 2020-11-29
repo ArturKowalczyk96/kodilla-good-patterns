@@ -1,12 +1,12 @@
-package com.kodilla.good.patterns.challenges;
+package com.kodilla.good.patterns.food2door;
 
 public class OrderProcessor {
 
-    private InformationService informationService;
+    private InformationServices informationService;
     private ProductOrderService productOrderService;
     private OrderRepository orderRepository;
 
-    public OrderProcessor (final InformationService informationService,
+    public OrderProcessor (final InformationServices informationService,
                            final ProductOrderService productOrderService,
                            final OrderRepository orderRepository) {
         this.informationService = informationService;
@@ -15,16 +15,16 @@ public class OrderProcessor {
     }
 
     public OrderDto proces (final OrderRequest orderRequest) {
-        boolean isOrdered = productOrderService.order(orderRequest.getUser(),
+        boolean isOrdered = productOrderService.order(orderRequest.getShopper(),
                 orderRequest.getProduct());
 
         if (isOrdered) {
-            informationService.inform(orderRequest.getUser());
-            orderRepository.createOrder(orderRequest.getUser(),
+            informationService.inform(orderRequest.getShopper());
+            orderRepository.createOrder(orderRequest.getShopper(),
                     orderRequest.getProduct());
-            return new OrderDto(orderRequest.getUser(), true);
+            return new OrderDto(orderRequest.getShopper(), true);
         } else {
-            return new OrderDto(orderRequest.getUser(), false);
+            return new OrderDto(orderRequest.getShopper(), false);
         }
     }
 }
