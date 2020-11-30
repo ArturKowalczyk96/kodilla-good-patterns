@@ -7,13 +7,14 @@ public class OrderRequest {
 
     private User user;
     private Product product;
-    //public LocalDate orderDate;
+    public LocalDate orderDate;
 
     public OrderRequest( User user,
-                         Product product){
+                         Product product,
+                         LocalDate orderDate){
         this.user = user;
         this.product = product;
-        //this.orderDate = orderDate;
+        this.orderDate = orderDate;
     }
 
     public User getUser() {
@@ -24,7 +25,7 @@ public class OrderRequest {
         return product;
     }
 
-    /*public LocalDate getOrderDate() {
+    public LocalDate getOrderDate() {
         return orderDate;
-    }*/
+    }
 }
